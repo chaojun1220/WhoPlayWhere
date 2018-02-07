@@ -5,147 +5,155 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- This meta code tells the browser that this is a responsive design, and there is no need to zoom out to fit the content to the small screen. -->
 	<title>Who Play Where</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="css/open-iconic/font/css/open-iconic-bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
-	
 </head>
 
 <body>
 	<header>
-		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #750dad;">
+		  <a class="navbar-brand" href="#">
+		  	<img src="image/logo-draft.png" width="50" height="50" alt="Logo">
+		  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
-		 
-		  <a class="navbar-brand" href="#">Navbar</a>
-		  <div class="collapse navbar-collapse" id="navbarNav">
-		    <ul class="navbar-nav">
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
 		      <li class="nav-item active">
 		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Features</a>
+		        <a class="nav-link" href="#">My Page</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Pricing</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link disabled" href="#">Disabled</a>
+		        <a class="nav-link" href="#">About</a>
 		      </li>
 		    </ul>
 		  </div>
 		</nav>
 	</header>
-<div class="Introduction"> </div>
+
+<div class="introduction"> </div>
 
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-lg-3 col-md-4 col-sm-6">
-			<div class="eventbox">
-				<div class=EventImageContainer>
-					<img src="image/event1mountain.png" class=EventImage>
+			<div class="event-card">
+				<div class=event-image>
+					<img src="image/event1mountain.png">
 				</div>
-				<img src="image/person1.jpg" class=CreatorImage>
-				<div class="EventTitle">Mountain Trip</div>
-				<div class="EventDescp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem </div>
-				<div class="SocialContainer">
-					<div class="SocialBox">
-						<img src="image/runner_icon.png" class="SocialContainerImage">
+				<img src="image/person1.jpg" class=creator-image>
+				<div class="event-title text-center">Mountain Trip</div>
+				<div class="event-descp text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem </div>
+				<div class="social-container">
+					<div class="social-icon">
+						<span class="oi oi-people"></span>
 					</div>
-					<div class="SocialBox">
-						<img src="image/map_icon.png" class="SocialContainerImage">
+					<div class="social-icon">
+						<span class="oi oi-map-marker"></span>
 					</div>
-					<div class="SocialBox">
-						<img src="image/date_icon.png" class="SocialContainerImage">
+					<div class="social-icon">
+						<span class="oi oi-calendar"></span>
 					</div>
-					<div class="SocialBox">15</div>
-					<div class="SocialBox">3km</div>
-					<div class="SocialBox">Feb.10</div>
+					<div class="social-icon">15</div>
+					<div class="social-icon">3km</div>
+					<div class="social-icon">10/02</div>
 				</div>
-				<div class="SignUp">Sign Up</div>
-			</div>
-		</div>
+				<a href="#">
+					<div class="sign-up">Sign Up</div>
+				</a>
+			</div></div>
 		<div class="col-lg-3 col-md-4 col-sm-6">
-			<div class="eventbox">
-				<div class=EventImageContainer>
-					<img src="image/mini_marathon.jpg" class=EventImage>
+			<div class="event-card">
+				<div class=event-image>
+					<img src="image/mini_marathon.jpg">
 				</div>
-				<img src="image/person2.jpg" class=CreatorImage>
-				<div class="EventTitle">Mini Marathon</div>
-				<div class="EventDescp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem </div>
-				<div class="SocialContainer">
-					<div class="SocialBox">
-						<img src="image/runner_icon.png" class="SocialContainerImage">
+				<img src="image/person2.jpg" class=creator-image>
+				<div class="event-title text-center">Mini Marathon</div>
+				<div class="event-descp text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem </div>
+				<div class="social-container">
+					<div class="social-icon">
+						<span class="oi oi-people"></span>
 					</div>
-					<div class="SocialBox">
-						<img src="image/map_icon.png" class="SocialContainerImage">
+					<div class="social-icon">
+						<span class="oi oi-map-marker"></span>
 					</div>
-					<div class="SocialBox">
-						<img src="image/date_icon.png" class="SocialContainerImage">
+					<div class="social-icon">
+						<span class="oi oi-calendar"></span>
 					</div>
-					<div class="SocialBox">15</div>
-					<div class="SocialBox">3km</div>
-					<div class="SocialBox">Feb.10</div>
+					<div class="social-icon">15</div>
+					<div class="social-icon">3km</div>
+					<div class="social-icon">10/02</div>
 				</div>
-				<div class="SignUp">Sign Up</div>
-			</div>
-		</div>
+				<a href="#">
+					<div class="sign-up">Sign Up</div>
+				</a>
+			</div></div>
 		<div class="col-lg-3 col-md-4 col-sm-6">
-			<div class="eventbox">
-				<div class=EventImageContainer>
-					<img src="image/event3.jpg" class=EventImage>
+			<div class="event-card">
+				<div class=event-image>
+					<img src="image/event3.jpg">
 				</div>
-				<img src="image/person3.jpg" class=CreatorImage>
-				<div class="EventTitle">Mini Soccer</div>
-				<div class="EventDescp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem </div>
-				<div class="SocialContainer">
-					<div class="SocialBox">
-						<img src="image/runner_icon.png" class="SocialContainerImage">
+				<img src="image/person3.jpg" class=creator-image>
+				<div class="event-title text-center">Mini Soccer</div>
+				<div class="event-descp text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem </div>
+				<div class="social-container">
+					<div class="social-icon">
+						<span class="oi oi-people"></span>
 					</div>
-					<div class="SocialBox">
-						<img src="image/map_icon.png" class="SocialContainerImage">
+					<div class="social-icon">
+						<span class="oi oi-map-marker"></span>
 					</div>
-					<div class="SocialBox">
-						<img src="image/date_icon.png" class="SocialContainerImage">
+					<div class="social-icon">
+						<span class="oi oi-calendar"></span>
 					</div>
-					<div class="SocialBox">15</div>
-					<div class="SocialBox">3km</div>
-					<div class="SocialBox">Feb.10</div>
+					<div class="social-icon">15</div>
+					<div class="social-icon">3km</div>
+					<div class="social-icon">10/02</div>
 				</div>
-				<div class="SignUp">Sign Up</div>
-			</div>
-		</div>
+				<a href="#">
+					<div class="sign-up">Sign Up</div>
+				</a>
+			</div></div>
 		<div class="col-lg-3 col-md-4 col-sm-6">
-			<div class="eventbox">
-				<div class=EventImageContainer>
-					<img src="image/event4.jpg" class=EventImage>
+			<div class="event-card">
+				<div class=event-image>
+					<img src="image/event4.jpg">
 				</div>
-				<img src="image/person4.jpg" class=CreatorImage>
-				<div class="EventTitle">Beauty Class</div>
-				<div class="EventDescp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem </div>
-				<div class="SocialContainer">
-					<div class="SocialBox">
-						<img src="image/runner_icon.png" class="SocialContainerImage">
+				<img src="image/person4.jpg" class=creator-image>
+				<div class="event-title text-center">Beauty Class</div>
+				<div class="event-descp text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem </div>
+				<div class="social-container">
+					<div class="social-icon">
+						<span class="oi oi-people"></span>
 					</div>
-					<div class="SocialBox">
-						<img src="image/map_icon.png" class="SocialContainerImage">
+					<div class="social-icon">
+						<span class="oi oi-map-marker"></span>
 					</div>
-					<div class="SocialBox">
-						<img src="image/date_icon.png" class="SocialContainerImage">
+					<div class="social-icon">
+						<span class="oi oi-calendar"></span>
 					</div>
-					<div class="SocialBox">15</div>
-					<div class="SocialBox">3km</div>
-					<div class="SocialBox">Feb.10</div>
+					<div class="social-icon">15</div>
+					<div class="social-icon">3km</div>
+					<div class="social-icon">10/02</div>
 				</div>
-				<div class="SignUp">Sign Up</div>
-			</div>
-		</div>
-		<div class="col-lg-3 col-md-4 col-sm-6"><p class="eventbox">Item 5</p></div>
-		<div class="col-lg-3 col-md-4 col-sm-6"><p class="eventbox">Item 6</p></div>
-		<div class="col-lg-3 col-md-4 col-sm-6"><p class="eventbox">Item 7</p></div>
-		<div class="col-lg-3 col-md-4 col-sm-6"><p class="eventbox">Item 8</p></div>
+				<a href="#">
+					<div class="sign-up">Sign Up</div>
+				</a>
+			</div></div>
+		<div class="col-lg-3 col-md-4 col-sm-6"><p class="event-card">Item 5</p></div>
+		<div class="col-lg-3 col-md-4 col-sm-6"><p class="event-card">Item 6</p></div>
+		<div class="col-lg-3 col-md-4 col-sm-6"><p class="event-card">Item 7</p></div>
+		<div class="col-lg-3 col-md-4 col-sm-6"><p class="event-card">Item 8</p></div>
 	</div>
-
-	
 </div>
 </body>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
 </html>
